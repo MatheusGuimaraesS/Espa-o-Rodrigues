@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Estúdio Rodrigues</title>
+<link rel="stylesheet" href="styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<img src="img/Logo Estúdio Rodrigues.png" alt="Estúdio Rodrigues" class="logo" />
+<h1>Estúdio Rodrigues</h1>
+<br>Transformando sua beleza todos os dias</>
+</header>
+<main>
+<!-- Espaço do Estúdio Rodrigues -->
+<section class="video-section">
+    <h1>Explore o Espaço</h1>
+    <div class="video-container">
+        <video autoplay loop muted playsinline>
+            <source src="img/espaco.mp4.mp4" type="video/mp4" />
+            Seu navegador não suporta a exibição deste vídeo.
+        </video>
+    </div>
+</section>
+
+<!-- Modal de Detalhes -->
+<section id="event-details" class="hidden">
+<button onclick="closeDetails()">Fechar</button>
+<div id="details-content"></div>
+</section>
+</main>
+<footer>
+<h3>&copy; 2025 Estúdio Rodrigues | Todos os direitos reservados</h3>
+</footer>
+<script src="script.js"></script>
+</body>
